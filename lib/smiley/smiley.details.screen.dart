@@ -9,6 +9,7 @@ import '../widgets/web.app.widget.dart';
 
 class SmileyDetailsScreen extends StatelessWidget {
   const SmileyDetailsScreen({Key? key}) : super(key: key);
+  static const routeName = "/Smiley";
 
   @override
   Widget build(BuildContext context) {

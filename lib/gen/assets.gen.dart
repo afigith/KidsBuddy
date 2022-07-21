@@ -12,6 +12,7 @@ class Assets {
   static const AssetGenImage appIcon = AssetGenImage('assets/app_icon.png');
   static const AssetGenImage bg = AssetGenImage('assets/bg.png');
   static const AssetGenImage iosIcon = AssetGenImage('assets/ios_icon.png');
+  static const AssetGenImage logo1 = AssetGenImage('assets/logo1.jpg');
 }
 
 class AssetGenImage {

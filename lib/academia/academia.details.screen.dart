@@ -9,6 +9,8 @@ import '../widgets/app.title.widget.dart';
 class AcademiaDetailsScreen extends StatelessWidget {
   const AcademiaDetailsScreen({Key? key}) : super(key: key);
 
+  static const routeName = "/Academia";
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(

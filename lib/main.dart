@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:kidsbuddy/academia/academia.details.screen.dart';
 import 'package:kidsbuddy/home.screen.dart';
+import 'package:kidsbuddy/smiley/smiley.details.screen.dart';
 
 // flutter packages pub run build_runner build
 void main() {
@@ -14,6 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'KidsBuddy',
+      routes: routes,
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -21,3 +24,8 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+final routes = <String, WidgetBuilder>{
+  AcademiaDetailsScreen.routeName: ((context) => const AcademiaDetailsScreen()),
+  SmileyDetailsScreen.routeName: ((context) => const SmileyDetailsScreen()),
+};
