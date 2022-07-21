@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.inbytes.kidsbuddy">
+    package="com.indbytes.kidsbuddy">
    <application
         android:label="kidsbuddy"
         android:name="${applicationName}"

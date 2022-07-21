@@ -1,4 +1,4 @@
-package com.inbytes.kidsbuddy
+package com.indbytes.kidsbuddy
 
 import io.flutter.embedding.android.FlutterActivity
 

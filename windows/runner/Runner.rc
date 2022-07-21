@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.inbytes" "\0"
+            VALUE "CompanyName", "com.indbytes" "\0"
             VALUE "FileDescription", "kidsbuddy" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "kidsbuddy" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2022 com.inbytes. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2022 com.indbytes. All rights reserved." "\0"
             VALUE "OriginalFilename", "kidsbuddy.exe" "\0"
             VALUE "ProductName", "kidsbuddy" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
